@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", arial, helvetica, clean, sans-serif;
+  font-size: 10px;
+  line-height: 1.35em;
+  color: #222;
+  background: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family:"Arvo"; 
+   font-weight:normal;
+}
+
+h2 {
+    font-size:20px;
+    font-weight:normal;
+}
+
+/*
+svg {
+  font-family: "Lucida Sans", arial, helvetica, clean, sans-serif;
+  font-size: 10px;
+}
+*/
+
+.foreground path {
+  fill: none;
+  stroke-opacity: .7;
+  stroke-width: 1px;
+}
+
+.foreground path.fade {
+  stroke-opacity: .2;
+}
+
+.highlight path {
+  fill: none;
+  stroke-opacity: 1;
+  stroke-width: 2px;
+}
+
+.c_highlight path {
+  fill: none;
+  /*stroke-opacity: 1;*/
+  stroke-width: 3px;  
+}
+
+.c_highlight path.fade {
+  stroke: #000;
+  stroke-opacity: .01;
+}
+
+.brush .extent {
+  fill-opacity: .2;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  text-shadow: 0 1px 0 #fff;
+  cursor: move;
+}
+
+#lists {
+  min-height: 1024px;
+}
+
+#lists .list{
+  line-height: 1.5em;
+  width: 1040px;
+  margin-bottom: 1px;
+}
+
+#lists .even{
+  background: #eee;
+}
+
+#lists .list div {
+  display: inline-block;
+  width: 130px;
+}
+
+ 
+#lists div.checkbox{
+    width: 50px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#lists div.county,
+#lists div.region,
+#lists div.child_population,
+#lists div.poverty_percent,
+#lists div.entries,
+#lists div.age_entries,
+#lists div.dependency_entries,
+#lists div.reunification,
+#lists div.length_of_stay{
+  padding-right: 10px;
+  text-align: left;
+}
+
+#lists div.entries{
+  width: 170px;
+}
+
+#lists div.county{
+  width: 80px;
+}
+#lists div.region{
+  width: 100px;
+}
+#lists div.poverty_percent{
+  width: 60px;
+}
+#lists div.age_entries{
+  width: 100px;
+}
+#lists div.dependency_entries{
+  width: 80px;
+}
+#lists div.reunification{
+  width: 100px;
+}
+#lists div.length_of_stay{
+  width: 100px;
+}
+#lists div.child_population{
+  width: 130px;
+}
+
+#lists div.county{
+    padding-left:20px;
+}
+
+/*header*/
+/*
+#grid_header{
+  position:fixed; 
+  bottom:0;
+  left:0; 
+  width:100%;   
+}
+*/
+#grid_header .header{
+  line-height: 1.8em;
+  width: 1040px;
+  margin-bottom: 1px;
+  background: #eee;
+  border-bottom: solid #ddd 1px;
+  border-top: solid #ddd 1px;
+}
+ 
+#grid_header .header div {
+  display: inline-block;
+  width: 130px;
+}
+
+
+#grid_header div.checkbox{
+    width: 50px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#grid_header div.county,
+#grid_header div.region,
+#grid_header div.child_population,
+#grid_header div.poverty_percent,
+#grid_header div.entries,
+#grid_header div.age_entries,
+#grid_header div.dependency_entries,
+#grid_header div.reunification,
+#grid_header div.length_of_stay{
+  padding-right: 10px;
+  text-align: left;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+#grid_header div.county{
+  width: 80px;
+}
+#grid_header div.region{
+  width: 100px;
+}
+#grid_header div.poverty_percent{
+  width: 60px;
+}
+#grid_header div.age_entries{
+  width: 100px;
+}
+#grid_header div.dependency_entries{
+  width: 80px;
+}
+#grid_header div.reunification{
+  width: 100px;
+}
+#grid_header div.length_of_stay{
+  width: 100px;
+}
+
+#grid_header div.entries{
+    width: 170px;
+}
+
+#grid_header div.child_population{
+  width: 130px;
+}
+
+
+#grid_header div.county{
+    padding-left: 20px;
+}
+
+.reset {
+  padding-left: 1em;
+  /*color: #888;*/
+  color:#3b6e8f;
+  cursor:pointer;
+}
+
+#widgets {
+    margin: 0px;
+}
+
+.gourp_button {
+    cursor:pointer;
+    stroke-width: .7;
+    
+}

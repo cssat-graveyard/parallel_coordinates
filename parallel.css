@@ -1,0 +1,195 @@
+
+.county_comparisons .foreground path {
+  fill: none;
+  stroke-opacity: .7;
+  stroke-width: 1px;
+}
+
+.county_comparisons .foreground path.fade {
+  stroke-opacity: .2;
+}
+
+.county_comparisons .highlight path {
+  fill: none;
+  stroke-opacity: 1;
+  stroke-width: 2px;
+}
+
+.county_comparisons .c_highlight path {
+  fill: none;
+  /*stroke-opacity: 1;*/
+  stroke-width: 3px;  
+}
+
+.county_comparisons .c_highlight path.fade {
+  stroke: #000;
+  stroke-opacity: .01;
+}
+
+.county_comparisons .brush .extent {
+  fill-opacity: .2;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.county_comparisons .axis line, 
+.county_comparisons .axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.county_comparisons .axis text {
+  text-shadow: 0 1px 0 #fff;
+  cursor: move;
+}
+
+.county_comparisons #lists {
+  min-height: 1024px;
+}
+
+.county_comparisons #lists .list{
+  line-height: 1.5em;
+  width: 1087px;
+  margin-bottom: 1px;
+}
+
+.county_comparisons #lists .even{
+  background: #eee;
+}
+
+.county_comparisons #lists .list div {
+  display: inline-block;
+  width: 130px;
+}
+
+ 
+.county_comparisons #lists div.checkbox{
+    width: 50px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.county_comparisons #lists div.county,
+.county_comparisons #lists div.region,
+.county_comparisons #lists div.child_population,
+.county_comparisons #lists div.poverty_percent,
+.county_comparisons #lists div.entries,
+.county_comparisons #lists div.age_entries,
+.county_comparisons #lists div.dependency_entries,
+.county_comparisons #lists div.reunification,
+.county_comparisons #lists div.length_of_stay{
+  padding-right: 10px;
+  text-align: left;
+}
+
+.county_comparisons #lists div.entries{
+  width: 160px;
+}
+
+.county_comparisons #lists div.county,
+.county_comparisons #lists div.region,
+.county_comparisons #lists div.age_entries,
+.county_comparisons #lists div.dependency_entries,
+.county_comparisons #lists div.reunification,
+.county_comparisons #lists div.length_of_stay{
+  width: 105px;
+}
+
+.county_comparisons #lists div.poverty_percent{
+    width:60px;
+}
+
+.county_comparisons #lists div.child_population{
+  width: 130px;
+}
+
+.county_comparisons #lists div.dependency_entries{
+  width: 100px;
+}
+
+.county_comparisons #lists div.county{
+    padding-left:20px;
+}
+ 
+#grid_header .header{
+  line-height: 1.8em;
+  width: 1087px;
+  margin-bottom: 1px;
+  background: #eee;
+  border-bottom: solid #ddd 1px;
+  border-top: solid #ddd 1px;
+}
+ 
+#grid_header .header div {
+  display: inline-block;
+  width: 130px;
+}
+
+
+#grid_header div.checkbox{
+    width: 50px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#grid_header div.county,
+#grid_header div.region,
+#grid_header div.child_population,
+#grid_header div.poverty_percent,
+#grid_header div.entries,
+#grid_header div.age_entries,
+#grid_header div.dependency_entries,
+#grid_header div.reunification,
+#grid_header div.length_of_stay{
+  padding-right: 10px;
+  text-align: left;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+#grid_header div.entries{
+    width: 160px;
+}
+
+#grid_header div.county,
+#grid_header div.region,
+#grid_header div.age_entries,
+#grid_header div.dependency_entries,
+#grid_header div.reunification,
+#grid_header div.length_of_stay{
+  width: 105px;
+}
+
+#grid_header div.poverty_percent{
+    width: 60px;
+}
+
+#grid_header div.child_population{
+  width: 130px;
+}
+
+#grid_header div.dependency_entries{
+  width: 100px;
+}
+
+#grid_header div.county{
+    padding-left: 20px;
+}
+
+.reset {
+  padding-left: 1em;
+  /*color: #888;*/
+  color:#3b6e8f;
+  cursor:pointer;
+}
+
+.county_comparisons #widgets {
+    margin: 0px;
+}
+
+.county_comparisons .gourp_button {
+    cursor:pointer;
+    stroke-width: .7;
+    
+}
